@@ -1,15 +1,18 @@
-## Automation_QA_Challenge
+# Automation_QA_Challenge
 
 ## Overview
-This repository contains automation scripts and manual testing documentation for the QA Automation challenge.
+This repository contains automation scripts and documentation for the QA Automation challenge using Python and Selenium. The focus is on end-to-end testing of the Student Onboarding workflow for a music school management system.
 
 ## Project Structure
-- `tests/` - Contains automated test scripts using Selenium and Python.
-- `data/` - Contains test data and factories.
-- `helpers/` - Utility scripts for waits and validations.
+- `tests/` - Automated test scripts using Selenium.
+  - `e2e/` - End-to-end test cases.
+  - `pages/` - Page Object Model classes.
+- `data/` - Test data generation and cleanup scripts.
+- `helpers/` - Utility functions (validation, waits, etc.).
 - `reports/` - Test execution reports.
-- `requirements.txt` - Python dependencies for automation.
 - `.env.example` - Template for environment variables.
+- `requirements.txt` - Python dependencies.
+- `README.md` - Project overview and instructions.
 
 ## Getting Started
 1. **Clone the repository**
