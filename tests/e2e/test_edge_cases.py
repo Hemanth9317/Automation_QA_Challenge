@@ -203,3 +203,10 @@ def test_child_link_existing_family(driver):
     list_page.search_student(student_data["first_name"])
     students = list_page.get_student_list()
     assert any(student_data["first_name"] in s.text for s in students), "Child student should be linked to existing family"
+
+
+def test_invalid_email(driver):
+    student_form = StudentFormPage(driver)
+    student_form.enter_email("invalid_email")
+    student_form.submit()
+    assert student_form.get_email_error() == "Please enter a valid email."
