@@ -30,7 +30,6 @@ Automation_QA_Challenge/
 ├── README.md # Project overview
 └── .gitignore # Ignored files/folders
 
-
 ---
 
 ## Getting Started
@@ -68,28 +67,6 @@ Dependencies:
 
 Contributing:
 - Follow the existing folder structure when adding new scripts.
-
 - Track empty folders using .gitkeep.
-
 - Ensure your code is properly commented and adheres to Python best practices.
-
 - Update README.md if new scripts or features are added.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
